@@ -4,6 +4,9 @@ A JBrowse plugin for viewing the frame that a coding sequences of a gene is in a
 
 ## Screenshot
 
+![](img/1.png)
+
+
 ## Example
 
     {
