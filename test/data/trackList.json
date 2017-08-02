@@ -12,28 +12,13 @@
          "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-"
       },
       {
-         "compress" : 0,
-         "key" : "genes",
-         "label" : "genes",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "CanvasFeatures",
-         "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/genes/{refseq}/trackData.json"
-      },
-      {
-         "compress" : 0,
-         "key" : "Genes",
          "label" : "Genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/Genes/{refseq}/trackData.json"
+         "urlTemplate" : "tracks/Genes/{refseq}/trackData.json",
+         "glyph": "ColorByCDS/View/FeatureGlyph/Gene",
+         "impliedUTRs": true
       }
-   ]
+   ],
+   "plugins": ["ColorByCDS"]
 }
