@@ -17,7 +17,7 @@ A JBrowse plugin for viewing the frame that a coding sequences of a gene is in a
      "glyph" : "ColorByCDS/View/FeatureGlyph/Gene"
     }
 
-Note that if you loaded your data with two levels e.g. mRNA->exon/cds instead of three levels e.g. gene->mRNA->exon/cds then use "ColorByCDS/View/FeatureGlyph/ProcessedTranscript" as the glyph.
+Note that if you loaded your data with two levels e.g. mRNA->exon/cds instead of three levels e.g. gene->mRNA->exon/cds then use "ColorByCDS/View/FeatureGlyph/ProcessedTranscript" as the glyph, otherwise you will see your feature is exploded into tiny pieces and not connected by introns.
 
 ## Installation
 
