@@ -6,6 +6,7 @@ A JBrowse plugin for viewing the frame that a coding sequences of a gene is in a
 
 ![](img/1.png)
 
+Figure: Picture of genes and the DNA track with the plugin enabled. The coloring of the CDS boxes corresponds to the colored rows of the DNA track
 
 ## Example
 
