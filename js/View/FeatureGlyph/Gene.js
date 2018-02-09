@@ -23,9 +23,9 @@ function (
                         var end = feat.get('end');
 
                         var frame = feat.get('strand') === 1 ? (start + phase) % 3 : (end - phase) % 3;
-                        if (frame === 0) return 'lightblue';
-                        else if (frame === 1) return 'pink';
-                        else if (frame === 2) return 'lightgreen';
+                        if (frame === 0) return '#2D6C80';
+                        else if (frame === 1) return '#469DF3';
+                        else if (frame === 2) return '#B4F78F';
                         return 'black';
                     }
                 }
