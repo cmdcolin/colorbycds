@@ -2,11 +2,15 @@
 
 A JBrowse plugin for viewing the frame that a coding sequences of a gene is in and coloring the DNA track and gene appropriately
 
-## Screenshot
+## Screenshots
 
 ![](img/1.png)
 
-Figure: Picture of genes and the DNA track with the plugin enabled. The coloring of the CDS boxes corresponds to the colored rows of the DNA track
+Figure 1: Picture of gene with alternate splicing that shows differring frame usage and stop codons depending on which exons are included.
+
+![](img/2.png)
+
+Figure 2: Picture of genes and the DNA track with the plugin enabled. The coloring of the CDS boxes corresponds to the colored rows of the DNA track
 
 ## Example
 
